@@ -11,6 +11,10 @@
     <OutputPath>.</OutputPath>
     <Name>parsefontfile</Name>
     <RootNamespace>parsefontfile</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>rmZK32M.BIN -l 24 -w 24 -o 0x7fff</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
